@@ -1,3 +1,3 @@
-kaggle µØÖ·£ºhttps://www.kaggle.com/c/word2vec-nlp-tutorial
+ï»¿kaggle åœ°å€ï¼šhttps://www.kaggle.com/c/word2vec-nlp-tutorial
 
-Ê¹ÓÃ word2vec ±àÂë
+ä½¿ç”¨ word2vec ç¼–ç 
