@@ -8,7 +8,6 @@
         一：最低层 Embedding，将每个 Field 特征都构造成等长的 Embedding 向量
         二：将k 个 Embedding 向量组合成原先长度*k 的 新向量送入 DNN
         三：DNN 包含两层网络，每层 32个神经元，激活函数是 Relu
-        四：输出层激活函数是 Sigmoid
 
     FM：
         一：直接利用Deep 训练好的向量当成 特征向量使用，所以FM 和Deep 是共享 Embedding
@@ -17,7 +16,7 @@
             2、组合部分：组合特征向量求和
 
     FM+Deep：
-        Sigmoid 、线性部分以及组合部分的输出都要乘以权重之后再加和。
+        DNN 输出 、线性部分以及组合部分的输出都要乘以权重之后再加和得到最后结果。
 
     来源：https://github.com/ChenglongChen/tensorflow-DeepFM
 """
